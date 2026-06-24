@@ -1,5 +1,5 @@
 # Oficina Luciano - Sistema de Gestão
-Este projeto foi desenvolvido para atender às necessidades administrativas e de atendimento ao cliente da oficina mecânica. O objetivo é otimizar o fluxo de trabalho, desde o recebimento do veículo até a entrega final, garantindo organização e agilidade.
+Este projeto foi desenvolvido para atender às necessidades administrativas e de atendimento ao cliente da oficina mecânica. O objetivo é otimizar o fluxo de trabalho, desde o recebimento do veículo até a entrega final, garantindo organização e agilidade em um trabalho da disciplina de Administração do 2° semestre do curso de Sistemas de Informação do IFBA Campus Vitória da Conquista.
 
 ## 🚀 Funcionalidades
 Gestão de Atendimento: Registro organizado dos veículos e serviços solicitados.
