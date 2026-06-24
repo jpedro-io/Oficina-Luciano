@@ -1,75 +1,25 @@
-# React + TypeScript + Vite
+# Oficina Luciano - Sistema de Gestão
+Este projeto foi desenvolvido para atender às necessidades administrativas e de atendimento ao cliente da oficina mecânica. O objetivo é otimizar o fluxo de trabalho, desde o recebimento do veículo até a entrega final, garantindo organização e agilidade.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Funcionalidades
+Gestão de Atendimento: Registro organizado dos veículos e serviços solicitados.
 
-Currently, two official plugins are available:
+Histórico de Manutenção: Acompanhamento detalhado do que foi realizado em cada veículo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Interface Intuitiva: Foco na facilidade de uso para a equipe da oficina.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
+Este projeto foi construído utilizando tecnologias modernas de desenvolvimento web:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React + Vite: Para uma interface rápida e responsiva.
 
-## Expanding the ESLint configuration
+TypeScript: Garantindo maior segurança e robustez no código.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Tailwind CSS: Para um design limpo e profissional.
+git clone [https://github.com/jpedro-io/Oficina-Luciano.git](https://github.com/jpedro-io/Oficina-Luciano.git)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Instale as dependências:
+npm install
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+Inicie o servidor de desenvolvimento:
+npm run dev
